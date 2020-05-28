@@ -376,9 +376,7 @@
 $(function() {
 		var ua = navigator.userAgent;
 		//导航扩展
-		var wexin_nav='<li><a href="#">游戏</a></li><li><a href="#">小说</a></li>';
 		var wap_nav='';
-		var extend_nav='<li><a href="/livetv.html">直播</a></li>';
 		if(ua.indexOf('MicroMessenger') > -1) {
 			extend_nav= wap_nav + extend_nav;
 		} else {
@@ -526,12 +524,5 @@ function showDefault(type){
 	}
 };
 
-
-	
-	
-	
-	
-	
-	
 	
 	
